@@ -4,8 +4,9 @@ dependencies:
   path: /
   manifest_updates:
     filters:
-    - name: ".*"
+    - name: '.*drupal.*'
       versions: "L.Y.Y"
   settings:
     # options for composer install/update/require
     composer_options: "--ignore-platform-reqs"
+
