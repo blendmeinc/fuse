@@ -6,6 +6,18 @@ dependencies:
     filters:
     - name: '.*drupal.*'
       versions: "L.Y.Y"
+    - name: '.*behat.*'
+      enabled: false
+    - name: '.*consolidation.*'
+      enabled: false
+    - name: '.*doctrine.*'
+      enabled: false
+    - name: '.*guzzlehttp.*'
+      enabled: false
+    - name: '.*symfony.*'
+      enabled: false
+    - name: '.*twig.*'
+      enabled: false
   settings:
     # options for composer install/update/require
     composer_options: "--ignore-platform-reqs"
